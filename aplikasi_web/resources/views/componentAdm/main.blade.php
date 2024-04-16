@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    @include('component.header')
+    @include('componentAdm.header')
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
 
     @yield('content')
 
-    @include('component.script')
+    @include('componentAdm.script')
 
 </body>
 
