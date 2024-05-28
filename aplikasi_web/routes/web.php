@@ -2,18 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
-Route::get('/', function () {
-    return view('adminDashboard.index');
-});
-
+Route::view('/', 'adminDashboard.index');
+Route::view('/dasklien', 'adminDashboard.klien');
+Route::view('/daspaket', 'adminDashboard.paket');
+Route::view('/daspembayaran', 'adminDashboard.pembayaran');
+Route::view('/dassetting', 'adminDashboard.setting');
+Route::view('/daslogout', 'adminDashboard.logout');
+Route::view('/home', 'pages.home');
+Route::view('/about', 'pages.about');
+Route::view('/metode&pembayaran', 'pages.metodePembayaran');
+Route::view('/kebijakan&privasi', 'pages.kebijakanPrivasi');
+Route::view('/paket', 'pages.paket');
+Route::view('/promo', 'pages.promo');
+Route::view('/login', 'login.login');

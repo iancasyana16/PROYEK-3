@@ -7,14 +7,14 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
 
+    @include('componentAdm.navbar')
+
+    @include('componentAdm.sidebar')
+
     @yield('content')
 
     @include('componentAdm.script')
 
 </body>
-
-<footer>
-
-</footer>
 
 </html>
