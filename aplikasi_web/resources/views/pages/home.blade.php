@@ -103,7 +103,6 @@
     </div>
     <div class="button d-flex m-auto justify-content-center mt-2">
         <button class="btn btn-primary m-2 rounded fw-bold">Paket Internet</button>
-        <button class="btn btn-primary m-2 rounded fw-bold">Add Ons</button>
     </div>
     <div class="row d-flex justify-content-center flex-wrap mx-3">
         <div class="card bg-light rounded w-25 text-center p-3 mt-4 mx-1">
@@ -113,9 +112,6 @@
             <p>Up to 20/Mbps
                 Download/Upload
                 Unlimited Quota</p>
-                <div class="btn btn-primary">
-                    Beli Paket
-                </div>
         </div>
         <div class="card bg-light rounded w-25 text-center p-3 mt-4 mx-1">
             <h1>BrayNet</h1>
@@ -124,9 +120,6 @@
             <p>Up to 20/Mbps
                 Download/Upload
                 Unlimited Quota</p>
-                <div class="btn btn-primary">
-                    Beli Paket
-                </div>
         </div>
         <div class="card bg-light rounded w-25 text-center p-3 mt-4 mx-1">
             <h1>BrayNet</h1>
@@ -135,9 +128,6 @@
             <p>Up to 20/Mbps
                 Download/Upload
                 Unlimited Quota</p>
-                <div class="btn btn-primary">
-                    Beli Paket
-                </div>
         </div>
     </div>
 

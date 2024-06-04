@@ -24,10 +24,6 @@
     <div class="row">
         <div class="div bg-info d-flex m-auto rounded my-2" style="height: 5px; width:150px;"></div>
     </div>
-    <div class="button d-flex m-auto justify-content-center mt-2">
-        <button class="btn btn-primary m-2 rounded fw-bold">Paket Internet</button>
-        <button class="btn btn-primary m-2 rounded fw-bold">Add Ons</button>
-    </div>
     <div class="row d-flex justify-content-center flex-wrap mx-3">
         <div class="card bg-light rounded w-25 text-center p-3 mt-4 mx-1">
             <h1>BrayNet</h1>

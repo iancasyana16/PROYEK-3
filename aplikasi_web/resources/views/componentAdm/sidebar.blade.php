@@ -53,6 +53,15 @@
                 </li>
 
                 <li class="nav-item">
+                    <a href="/daspromo" class="nav-link">
+                        <i class="nav-icon fa-solid fa-rectangle-ad"></i>
+                        <p>
+                            Promo
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
                     <a href="/dassetting" class="nav-link">
                         <i class="nav-icon fas fa-gear"></i>
                         <p>
