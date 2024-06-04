@@ -1,6 +1,6 @@
 {
-    "name": "aplikasi_mobile",
-    "short_name": "aplikasi_mobile",
+    "name": "braynet",
+    "short_name": "braynet",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

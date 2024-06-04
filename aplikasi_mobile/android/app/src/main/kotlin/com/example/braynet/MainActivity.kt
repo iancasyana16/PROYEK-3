@@ -1,4 +1,4 @@
-package com.example.aplikasi_mobile
+package com.example.braynet
 
 import io.flutter.embedding.android.FlutterActivity
 
