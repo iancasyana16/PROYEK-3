@@ -17,7 +17,7 @@
                 data-accordion="false">
 
                 <li class="nav-item">
-                    <a href="/" class="nav-link">
+                    <a href="/admin" class="nav-link">
                         <i class="nav-icon fas fa-home"></i>
                         <p>
                             Home
@@ -26,7 +26,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="/dasklien" class="nav-link">
+                    <a href="/adminKlien" class="nav-link">
                         <i class="nav-icon fas fa-user"></i>
                         <p>
                             Klien
@@ -35,7 +35,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="/daspaket" class="nav-link">
+                    <a href="/adminPaket" class="nav-link">
                         <i class="nav-icon fas fa-wifi"></i>
                         <p>
                             Paket
@@ -44,7 +44,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="/daspembayaran" class="nav-link">
+                    <a href="/adminPembayaran" class="nav-link">
                         <i class="nav-icon fa-solid fa-money-bills"></i>
                         <p>
                             Pembayaran
@@ -53,7 +53,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="/daspromo" class="nav-link">
+                    <a href="/adminPromo" class="nav-link">
                         <i class="nav-icon fa-solid fa-rectangle-ad"></i>
                         <p>
                             Promo
@@ -62,7 +62,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="/dassetting" class="nav-link">
+                    <a href="/adminSetting" class="nav-link">
                         <i class="nav-icon fas fa-gear"></i>
                         <p>
                             Setting
@@ -71,7 +71,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="/daslogout" class="nav-link">
+                    <a href="/adminLogout" class="nav-link">
                         <i class="nav-icon fa-solid fa-power-off"></i>
                         <p>
                             Logout
