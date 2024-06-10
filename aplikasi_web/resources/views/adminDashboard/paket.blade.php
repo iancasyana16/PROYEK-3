@@ -1,4 +1,5 @@
 @extends('componentAdm.main')
+@section($title = 'Dashboard Paket')
 @section('content')
     <div class="wrapper">
 
@@ -55,15 +56,16 @@
                                 <div class="mb-3">
                                     <label for="nama" class="form-label">Nama Paket</label>
                                     <input type="text" class="form-control" id="nama" name="nama_layanan"
-                                        aria-describedby="emailHelp">
+                                        aria-describedby="emailHelp" placeholder="20Mbps...">
                                 </div>
                                 <div class="mb-3">
                                     <label for="harga" class="form-label">Harga Paket</label>
-                                    <input type="number" class="form-control" id="harga" name="harga_layanan">
+                                    <input type="number" class="form-control" id="harga" name="harga_layanan"
+                                        placeholder="100000">
                                 </div>
                                 <div class="mb-3">
                                     <label for="desk" class="form-label">Deskripsi</label>
-                                    <textarea class="form-control" placeholder="Deskripsikan..." id="deskripsi_layanan" name="deskripsi_layanan"></textarea>
+                                    <textarea class="form-control" placeholder="FULL FTTH" id="deskripsi_layanan" name="deskripsi_layanan">FULL FTTH</textarea>
                                 </div>
                                 <div class="mb-3">
                                     <button type="submit" class="btn btn-primary">Simpan</button>

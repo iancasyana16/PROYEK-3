@@ -3,6 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+
 
 return new class extends Migration
 {
@@ -13,11 +15,25 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->string('nomorHp')->unique();
+            $table->string('username');
             $table->string('password');
             $table->timestamps();
         });
+
+        //Inserting hashed password for admin tabl users
+        DB::table('users')->insert([
+            'username' => 'admin',
+            'password' => bcrypt('admin'), // Hashing the password
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        DB::table('users')->insert([
+            'username' => 'khoerul',
+            'password' => bcrypt('admin'), // Hashing the password
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
 
         Schema::create('sessions', function (Blueprint $table) {
             $table->string('id')->primary();

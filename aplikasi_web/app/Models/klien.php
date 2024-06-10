@@ -10,6 +10,9 @@ class klien extends Model
     use HasFactory;
 
     protected $fillable = [
-        'nama', 'nomorHp', 'alamat', 'paket'
+        'nama',
+        'nomorHp',
+        'alamat',
+        'paket'
     ];
 }

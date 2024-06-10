@@ -1,4 +1,5 @@
 @extends('componentAdm.main')
+@section($title = 'Dashboard Home')
 @section('content')
     <div class="wrapper">
 
@@ -20,7 +21,7 @@
             <section class="content">
                 <div class="container-fluid">
                     <div class="callout callout-info">
-                        <h5>Selamat Datang Admin!</h5>
+                        <h5>Selamat Datang {{ Auth::user()->username }}!</h5>
                         <p>admin adalah tulang punggung dalam mengelola segala tantangan dan tugas yang muncul setiap hari.
                             Dengan kegigihan dan ketekunan yang tak kenal lelah, mereka terus bergerak maju, melampaui batas
                             dan menghadapi masalah dengan kepala tegak. Meski terkadang lelah menyerang, admin selalu
@@ -50,23 +51,6 @@
                         <!-- ./col -->
                         <div class="col-lg-3 col-6">
                             <!-- small card -->
-                            <div class="small-box bg-success">
-                                <div class="inner">
-                                    <h3>0</h3>
-
-                                    <p>Pembayaran</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="fa-solid fa-money-bills"></i>
-                                </div>
-                                <a href="#" class="small-box-footer">
-                                    Detail <i class="fas fa-arrow-circle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- ./col -->
-                        <div class="col-lg-3 col-6">
-                            <!-- small card -->
                             <div class="small-box bg-warning">
                                 <div class="inner">
                                     <h3>{{ count($klien) }}</h3>
@@ -82,16 +66,16 @@
                             </div>
                         </div>
                         <!-- ./col -->
-                        <div class="col-lg-3 col-6">
+                        <div class="col-lg-6 col-6">
                             <!-- small card -->
-                            <div class="small-box bg-danger">
+                            <div class="small-box bg-success">
                                 <div class="inner">
-                                    <h3>65</h3>
+                                    <h3>0</h3>
 
-                                    <p>Statistik</p>
+                                    <p>Pembayaran</p>
                                 </div>
                                 <div class="icon">
-                                    <i class="fas fa-chart-pie"></i>
+                                    <i class="fa-solid fa-money-bills"></i>
                                 </div>
                                 <a href="#" class="small-box-footer">
                                     Detail <i class="fas fa-arrow-circle-right"></i>

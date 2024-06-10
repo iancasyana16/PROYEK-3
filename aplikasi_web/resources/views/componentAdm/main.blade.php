@@ -3,6 +3,7 @@
 
 <head>
     @include('componentAdm.header')
+    <title>{{ $title }}</title>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">

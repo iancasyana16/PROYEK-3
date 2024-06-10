@@ -44,6 +44,15 @@
                 </li>
 
                 <li class="nav-item">
+                    <a href="/adminInstalasi" class="nav-link">
+                        <i class="nav-icon fa-solid fa-money-bills"></i>
+                        <p>
+                            Instalasi
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
                     <a href="/adminPembayaran" class="nav-link">
                         <i class="nav-icon fa-solid fa-money-bills"></i>
                         <p>
@@ -71,7 +80,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="/adminLogout" class="nav-link">
+                    <a href="{{ route('logout') }}" class="nav-link">
                         <i class="nav-icon fa-solid fa-power-off"></i>
                         <p>
                             Logout

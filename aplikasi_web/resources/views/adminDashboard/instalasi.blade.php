@@ -1,5 +1,5 @@
 @extends('componentAdm.main')
-@section($title = 'Dashboard Pembayaran')
+@section($title = 'Dashboard Instalasi')
 @section('content')
     <div class="wrapper">
 
@@ -10,7 +10,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>Dashboard/Pembayaran</h1>
+                            <h1>Dashboard/Instalasi</h1>
                         </div>
                     </div>
                 </div><!-- /.container-fluid -->
@@ -27,14 +27,18 @@
                                         <thead>
                                             <tr>
                                                 <th style="width: 20px">No</th>
-                                                <th style="width: 120px">Nama Klien</th>
-                                                <th style="width: 80px">Tanggal Pembayaran</th>
-                                                <th style="width: 100px">Metode Pembayaran</th>
+                                                <th style="width: 120px">Nama</th>
+                                                <th style="width: 120px">Nomor Hp</th>
+                                                <th style="width: 80px">Tanggal Instalasi</th>
+                                                <th style="width: 100px">Paket</th>
                                                 <th style="width: 50px">Status</th>
+                                                <th style="width: 100px">Opsi</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
+                                                <td></td>
+                                                <td></td>
                                                 <td></td>
                                                 <td></td>
                                                 <td></td>

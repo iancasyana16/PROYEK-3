@@ -1,4 +1,5 @@
 @extends('componentAdm.main')
+@section($title = 'Dashboard Klien')
 @section('content')
     <div class="wrapper">
 
